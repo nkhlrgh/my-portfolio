@@ -102,6 +102,11 @@ hr {
   background-color: var(--offwhite);
 }
 
+.section-wh {
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+}
+
 .section a {
   margin: 1rem auto;
 }
@@ -122,4 +127,8 @@ hr {
   text-align: center;
   font-weight: bold;
   font-size: large;
+}
+
+.blog-heading {
+  text-align: center;
 }
