@@ -7,6 +7,7 @@
 }
 body {
   font-family: "PT Sans", sans-serif;
+  margin: 0px;
 }
 
 hr {
@@ -78,6 +79,18 @@ hr {
 
 .header-heading span {
   color: var(--primary-color);
+}
+
+.section {
+  padding: 2rem;
+}
+
+.section h1 {
+  text-align: center;
+}
+
+section p {
+  text-align: center;
 }
 
 .section-ow {
