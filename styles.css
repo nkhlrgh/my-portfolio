@@ -37,6 +37,7 @@ hr {
 }
 
 .link-secondary {
+  background-color: white;
   border: 1px solid var(--primary-color);
   color: var(--black);
 }
@@ -99,6 +100,10 @@ hr {
 
 .section-ow {
   background-color: var(--offwhite);
+}
+
+.section a {
+  margin: 1rem auto;
 }
 
 .foot {
