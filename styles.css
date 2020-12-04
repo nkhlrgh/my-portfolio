@@ -3,7 +3,7 @@
 :root {
   --primary-color: #fcd34d;
   --black: black;
-  --offwhite: #f3f4f6;
+  --offwhite: #e5e7eb;
 }
 body {
   font-family: "PT Sans", sans-serif;
@@ -27,6 +27,8 @@ hr {
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .link-primary {
@@ -48,10 +50,15 @@ hr {
   padding: 0.5rem 1rem;
 }
 
+.link-active {
+  font-weight: bold;
+}
+
 .navbar {
   padding: 0.5rem 1rem;
   background-color: var(--primary-color);
   border-bottom-left-radius: 1.1rem;
+  border-bottom-right-radius: 1.1rem;
 }
 
 .navbar-brand {
@@ -82,14 +89,11 @@ hr {
 }
 
 .section {
-  padding: 2rem;
+  padding: 1rem;
+  margin: 2rem auto;
 }
 
 .section h1 {
-  text-align: center;
-}
-
-section p {
   text-align: center;
 }
 
@@ -100,9 +104,17 @@ section p {
 .foot {
   padding: 0.5rem 1rem;
   background-color: var(--primary-color);
-  border-bottom-right-radius: 1.1rem;
+  border-top-left-radius: 1.1rem;
+  border-top-right-radius: 1.1rem;
 }
 
 .foot .list {
   text-align: center;
+  padding-inline-start: 0px;
+}
+
+.footer-heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
 }
