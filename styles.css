@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #fcd34d;
+  --black: black;
+  --offwhite: #f3f4f6;
+}
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+hr {
+  margin-top: 3rem;
+}
+
+.container {
+  padding: 0.5rem 1rem;
+}
+
+.container-center {
+  max-width: 500px;
+  margin: auto;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.link-primary {
+  background-color: var(--primary-color);
+  color: var(--black);
+}
+
+.link-secondary {
+  border: 1px solid var(--primary-color);
+  color: var(--black);
+}
+
+.list {
+  list-style: none;
+}
+
+.list-inline {
+  display: inline;
+  padding: 0.5rem 1rem;
+}
+
+.navbar {
+  padding: 0.5rem 1rem;
+  background-color: var(--primary-color);
+  border-bottom-left-radius: 1.1rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: large;
+}
+
+.navbar .list {
+  text-align: right;
+}
+
+.list .list-inline a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.header-image {
+  max-width: 400px;
+  display: block;
+}
+
+.header-heading {
+  text-align: center;
+}
+
+.header-heading span {
+  color: var(--primary-color);
+}
+
+.section-ow {
+  background-color: var(--offwhite);
+}
+
+.foot {
+  padding: 0.5rem 1rem;
+  background-color: var(--primary-color);
+  border-bottom-right-radius: 1.1rem;
+}
+
+.foot .list {
+  text-align: center;
+}
