@@ -44,6 +44,7 @@ hr {
 
 .list {
   list-style: none;
+  padding-left: 0px;
 }
 
 .list-inline {
@@ -77,8 +78,9 @@ hr {
 }
 
 .header-image {
-  max-width: 400px;
+  max-width: 35vw;
   display: block;
+  margin: 1rem auto;
 }
 
 .header-heading {
