@@ -28,13 +28,15 @@ hr {
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  /* margin-top: 2rem;
+  margin-bottom: 2rem; */
 }
 
 .link-primary {
   background-color: var(--primary-color);
   color: var(--btn-text);
+  display: inline-block;
+  margin: 0.5rem auto;
 }
 
 .link-secondary {
@@ -42,6 +44,7 @@ hr {
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
   display: inline-block;
+  margin: 0.5rem auto;
 }
 
 .list {
