@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 :root {
-  --primary-color: #fcd34d;
+  --primary-color: #3b82f6;
   --black: black;
   --btn-text: white;
-  --offwhite: #e5e7eb;
+  --offwhite: #dbeafe;
+  --bkg-blue: #eff6ff;
 }
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0px;
+  background-color: var(--bkg-blue);
 }
 
 hr {
@@ -40,7 +42,7 @@ hr {
 }
 
 .link-secondary {
-  background-color: white;
+  background-color: var(--bkg-blue);
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
   display: inline-block;
@@ -74,7 +76,7 @@ hr {
 
 .list .list-inline a {
   text-decoration: none;
-  color: var(--black);
+  color: var(--btn-text);
 }
 
 .header-image {
@@ -130,6 +132,7 @@ hr {
   text-align: center;
   font-weight: bold;
   font-size: large;
+  color: var(--btn-text);
 }
 
 .blog-heading {
